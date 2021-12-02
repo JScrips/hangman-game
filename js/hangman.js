@@ -35,7 +35,7 @@ let wordStatus = null;
 resetButton.addEventListener("click", resetGame);
 startButton.addEventListener("click", gamePlay);
 
-generateButtons();
+// generateButtons();
 
 function resetGame() {
   let answerWord = wordBank[Math.floor(Math.random() * wordBank.length)];
@@ -62,6 +62,7 @@ function resetGame() {
 }
 
 function gamePlay() {
+generateButtons();
   startButton.classList.add(
     "opacity-25",
     "pointer-events-none",
