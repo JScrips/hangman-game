@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>JScrips || Hangman</title>
+  </head>
+  <body>
+<div class='h-screen flex flex-col rounded bg-gray-300'> <!-- Content Wrapper -->
+    <nav><!--Navigation Bar Start-->
+    <div class='w-full h-12 bg-red-700 '></div>
+    <nav><!--Navigation Bar End-->
+
+    <div class="flex flex-col  mb-4 mt-4"><!--Header Start-->
+      <h1 class="text-center text-black font-black text-3xl ">Hangman</h1>
+    </div><!--Header End-->
+
+    <section class = 'flex justify-center'> <!--Main Section Pt-1 begin-->
+        <div class='bg-black w-full h-96'>
+        </div>
+    </section> <!--Main Section Pt-1 End-->
+
+     
+
+     
+
+      <div class="text-center">
+        <p> Guess The Word or Die </p>
+        <p class="wordSpotlight mb-2"></p>
+      </div>
+        
+    <div class="text-center flex flex-wrap m-2  gap-2 keyboard justify-center ">
+    </div>
+
+
+    <div class="mistake-center grid justify-items-center gap-2">
+       <div>
+        <span class="mistakes">0</span>
+        <span>of</span>
+        <span class="maxWrong">10</span>
+        <span>Guesses</span>
+       </div>
+        <div>
+        <span class='winlose'></span>
+        </div>
+      </div>
+
+
+    <div class='playbuttons flex justify-center mt-4  gap-2'>
+        
+        <button class='beginbutton bg-red-600 p-2 rounded text-white font-black '>
+            Start Game
+            </button>
+        <button class='resetbutton bg-red-600 p-2 rounded text-white font-black '>
+            Reset Game 
+            </button>
+            
+    </div>
+    <div class= ' playbuttons grid justify-items-center mt-4  gap-2'> 
+        <h1>Word GraveYard</h1>
+        <div class = 'graveyard bg-red-500'><div>
+    </div>
+    
+</div> <!--End of Content Wrapper -->
+    <script src="./js/hangman.js"></script>
+  </body>
+</html>
