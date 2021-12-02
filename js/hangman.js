@@ -1,4 +1,4 @@
-const wordBank = ["terrance",'rage','anette','babyd','booboo','art','chicken','blackstar','anothony','geneva','baldy','deszie','breanna','vanessa','nick','steffy','rayray','raymond','nini','rayla','ninj','woopwoop',];
+const wordBank = ["terrance",'anette','babyd','booboo','blackstar','anthony','geneva','baldy','deszie','breanna','vanessa','nick','steffy','rayray','raymond','nini','rayla','ninj','woopwoop', 'emma'];
 const keyboard = document.querySelector(".keyboard");
 // const hiddenWord = document.querySelector(".wordSpotlight");
 const currentWord = [];
